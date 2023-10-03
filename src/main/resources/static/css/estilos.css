@@ -1,0 +1,92 @@
+body{
+    box-sizing:  border-box;
+    margin:0;
+    background-color:#ffffff;
+    font-family: Montserrat, sans-serif;
+    padding: 90px 20px 0
+
+
+
+}
+.header{
+    position: fixed;
+    background-color: #d29bfd;
+    top:0;
+    left:0;
+    height: 90px;
+    width: 100%;
+
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+max-width: 992px;
+padding: 0 auto;
+}
+.nav-menu{
+    display: flex;
+    padding: 0 40px;
+    
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 90px;
+    
+     
+}
+.nav-menu-li{
+  padding: 8px 12px;  
+  transition: 0.5s;
+}
+
+.nav-menu-li:hover{
+ background-color: #024070;
+ border-radius: 10px;
+ 
+}
+aside{
+
+    position: fixed;
+    background-color: #c7f1c2;
+    top:90px;
+    left:0;
+    bottom: 10px;
+    width: 20%;
+}
+section{
+    overflow-y: scroll;
+    position: fixed;
+    background-color:white ;
+    top:90px;
+    left:20%;
+    bottom: 20px;
+    width: 80%;
+}
+footer{
+
+    position: fixed;
+    background-color:black ;
+    text-align: center;
+    color:white;
+    height: 20px;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
+
+.aviso{
+    color: #000000;
+}
